@@ -1,0 +1,172 @@
+body {
+  background-color: #000000;
+}
+
+.index__header-bg-color {
+  background-color: #006600;
+}
+h1 {
+  margin: 0;
+  padding: 8px;
+  padding-top: 21px;
+  padding-bottom: 23px;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #585858;
+  border: 2px solid #000000;
+  padding-top: 28px;
+  padding-bottom: 50px;
+}
+nav a {
+  text-decoration: none;
+  padding: 50px;
+  font-size: 1.3em;
+  color: white;
+  width: 120px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  float: left;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.index__header-two {
+  background-color: #00004d;
+  font-size: 1.3em;
+  color: white;
+  border: 2px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial;
+}
+.game-text {
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color: #808080;
+  clear: both;
+  color: #ffdb00;
+  font-family: ;
+  font-weight: bold;
+}
+
+.latest-consoles__header {
+  background-color: #600080;
+}
+.latest-consoles__h2 {
+  background-color: forestgreen;
+  font-size: 1.3em;
+  color: white;
+  border: 2px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial;
+}
+.latest-consoles__h1 {
+  margin: 0;
+  padding: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  text-align: center;
+}
+
+.gamereviews__header {
+  background-color: #b30000;
+}
+.gamereviews__h1 {
+  margin: 0;
+  padding: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  text-align: center;
+}
+
+.contact__header {
+  background-color: #0059b3;
+}
+.contact__h1 {
+  margin: 0;
+  padding: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: white;
+  font-size: 38px;
+}
+
+fieldset {
+  width: 320px;
+  border: 2px ridge #ff0000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+legend {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  color: white;
+}
+label {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.about-page__header {
+  background-color: #586674;
+}
+.about-page__h1 {
+  margin: 0;
+  padding: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  text-align: center;
+}
+.about-page__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-page__paragraph-title {
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Arial";
+}

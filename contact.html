@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <meta charset="UTF-8">
+ <head>
+<title>Contact Form</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+ 
+  <main>
+  <header class="contact__header"> <h1 class="contact__h1">Contact </h1> </header>
+  <nav> 
+ <ul>
+    <li><a href="index.html">Home</a></li>
+      <li><a href="latestconsoles.html">Latest Consoles</a></li>
+      <li><a href="gamereviews.html"> Game Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+	  <li><a href="about.html">About </a></li>
+</ul>
+</nav>
+<h1> Send Us Your Feedback</h1><br>
+<form>
+<fieldset>
+<legend> Customer Information </legend>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+<label for="myName">*Name:</label>
+<input type="text" name="myName" id="myName"
+required="required" placeholder="your first and last name">
+<br><br>
+<label for="myEmail">*E-mail:</label>
+  <input type="email" name ="myEmail"  id="myEmail"
+   required="required" placeholder="you@yourdomain.com">
+   <br> <br>
+    <label for="myRating">Rating(1-10):</label>
+ <input type="text"  name="myRating" id="myRating"  >
+ 
+    
+ <br><br>
+
+	</fieldset>
+	<label for="myComments">*Comments:</label><br>
+	<textarea name="myComments" id="myComments" rows="2" cols="20"
+ required="required"></textarea>
+
+<br>
+<br>
+  <input id="mySubmit" type="submit" value="Submit">
+	<input type="reset"> 
+</form>
+
+
+
+
+ 
+ 
+
+
+
+<footer> @2023 Blake Bradley</footer>
+  </main>
+</body>
+</html>
